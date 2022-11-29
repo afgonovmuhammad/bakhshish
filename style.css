@@ -4,3 +4,138 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+.Ali-main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(./images/AAAA-i1.png);
+}
+.Ali-center{
+    width: 85%;
+}
+.ALI_NAV{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    
+}
+.Ali-navbar{
+    /* display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0; */
+    z-index: 1;
+    
+}
+.Ali-saf{
+    width: 76px;
+    height: 43px;
+    background: #FFFFFF;
+    border-radius: 26.5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.Ali-saf img:nth-child(1){
+    padding-left: 5px;
+}
+.Ali-saf img:nth-child(2){
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 20%;
+}
+.Ali-saf img:nth-child(2):hover{
+    background-color: rgb(20, 18, 19);
+    color: aqua;
+}
+.Ali-SAFEDD{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: 450px;
+    right: 600px;
+    width: 50%;
+    height: 65vh;
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 50px rgb(179, 179, 172);
+}
+.Ali-SAFEDD h1{
+    font-family: 'Merriweather';
+    font-weight: 700;
+font-size: 39px;
+line-height: 49px;
+padding-top: 40px;
+padding-left: 0px;
+color: #000000;
+}
+.Ali-SAFEDD span{
+    color:#F78065;
+}
+.Ali-SAFEDD p{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+padding: 20px 0px 20px 0px;
+color: #000000;
+opacity: 0.6
+}
+.AAAl-but img{
+    padding-right: 8px;
+}
+.AAAl-but button{
+    color: #FFFFFF;
+    background: #F78065;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px 60px;
+    border: none;
+    cursor: pointer;
+}
+.AAAl-but button:hover{
+    background-color: indianred;
+    border-radius: 10%;
+    color: darkorchid;
+
+}
+.Ali-sod{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 350px;
+    padding: 40px 0px 70px;
+}
+.Ali-AA3{
+    display: flex;
+    justify-content: space-between;
+}
+.Ali-A{
+    width: 33%;
+}
+.Ali-A h1{
+    font-family: 'Merriweather';
+    font-weight: 700;
+font-size: 23px;
+line-height: 30px;
+padding: 20px 0px 10px;
+color: #000000;
+}
+.Ali-A p{
+    font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+
+opacity: 0.5;
+}
+.Ali-A h2{
+    font-weight: 700;
+font-size: 18px;
+line-height: 22px;  
+color: #F78065;
+padding: 10px 0px 20px;
+}
